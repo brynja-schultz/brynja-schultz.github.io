@@ -24,3 +24,23 @@ nav a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
+  footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  footer img.icon-link {
+    width: 32px;
+    height: 32px;
+    margin-top: 0.5rem;
+    transition: transform 0.2s ease;
+  }
+  
+  footer img.icon-link:hover {
+    transform: scale(1.1);
+  }
+  
