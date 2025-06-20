@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 800px;
+    background: #fdfdfd;
+    color: #222;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: steelblue;
+    font-weight:bold;
+}
