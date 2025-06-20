@@ -37,7 +37,7 @@ body {
   }
   
   .site-logo:hover {
-    filter: brightness(0) saturate(100%) invert(41%) sepia(18%) saturate(2671%) hue-rotate(177deg) brightness(95%) contrast(85%); 
+    filter: brightness(0) saturate(100%) invert(82%) sepia(12%) saturate(580%) hue-rotate(131deg) brightness(95%) contrast(92%); 
   }
 
   /* Navigation */
