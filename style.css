@@ -1,3 +1,21 @@
+header {
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 2rem;
+  }
+  
+.site-logo {
+    width: 64px;
+    height: auto;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+  
+.site-logo:hover {
+    transform: scale(1.05);
+}
+  
 body {
     font-family: Arial, sans-serif;
     margin: 0 auto;
