@@ -17,7 +17,7 @@ body {
   
   /* Header */
   .site-header {
-    background-color: #cae9ff; /* sky blue */
+    background-color: #4f9ecf; 
     padding: 1rem 2rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
