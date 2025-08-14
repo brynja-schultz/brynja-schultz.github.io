@@ -35,18 +35,6 @@ The site is a **work in progress** and will continue to evolve with additional c
 * Integrated blog section for sharing learning insights.
 
 ---
-
-## How to Run Locally
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/brynja-schultz/brynja-schultz.github.io.git
-   ```
-2. Open `index.html` in your browser.
-
----
-
 ## Portfolio Note
 
 This website serves as a **central hub** for my professional portfolio, complementing my GitHub repositories.
