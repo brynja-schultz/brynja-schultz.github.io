@@ -29,19 +29,17 @@
   <body>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a class="brand" href="#top">BS</a>
+        <a class="brand" href="index.html">BS</a>
 
         <nav aria-label="Primary navigation">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#research">Research</a>
-          <a href="#contact">Contact</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="research.html">Research</a>
+          <a href="contact.html">Contact</a>
         </nav>
       </div>
     </header>
-
-    <main id="top">
-      <!-- Hero -->
+    <main>
       <section class="hero container">
         <div class="hero-copy">
           <p class="eyebrow">
@@ -58,13 +56,13 @@
           </p>
 
           <div class="hero-actions">
-            <a class="button primary" href="#projects">
+            <a class="button primary" href="projects.html">
               View projects
             </a>
 
             <a
               class="button secondary"
-              href="Brynja-Schultz-Resume.pdf"
+              href="Brynja Schultz Resume.pdf"
               target="_blank"
               rel="noopener"
             >
@@ -99,212 +97,10 @@
           </div>
         </div>
       </section>
-
-      <!-- About -->
-      <section id="about" class="section container">
-        <div class="section-heading">
-          <p class="eyebrow">ABOUT</p>
-          <h2>Technical work grounded in quantitative reasoning.</h2>
-        </div>
-
-        <div class="about-grid">
-          <p>
-            My work combines programming, statistics, modeling, and data analysis.
-            I am currently pursuing an MSc in Computational Biology &amp;
-            Bioinformatics at ETH Zürich after completing a Computer Science degree
-            with a minor in Mathematics at NYU.
-          </p>
-
-          <p>
-            I am particularly interested in problems where quantitative analysis
-            can clarify a complex decision: evaluating models, extracting signal
-            from noisy data, and communicating results in a way that is useful to
-            technical and non-technical audiences.
-          </p>
-        </div>
-
-        <div class="skill-list" aria-label="Technical skills">
-          <span>Python</span>
-          <span>SQL</span>
-          <span>Pandas</span>
-          <span>NumPy</span>
-          <span>Scikit-learn</span>
-          <span>Statsmodels</span>
-          <span>Machine Learning</span>
-          <span>Regression</span>
-          <span>Data Analysis</span>
-          <span>Git</span>
-          <span>C++</span>
-          <span>Java</span>
-        </div>
-      </section>
-
-      <!-- Projects -->
-      <section id="projects" class="section section-alt">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">SELECTED PROJECTS</p>
-            <h2>Recent work</h2>
-          </div>
-
-          <div class="project-grid">
-            <article class="project-card featured">
-              <div>
-                <p class="project-kicker">QUANTITATIVE FINANCE</p>
-
-                <h3>Equity Factor Analysis</h3>
-
-                <p>
-                  Python-based analysis of equity returns and factor exposures
-                  using return statistics, correlation analysis, regression, and
-                  model evaluation. Built to examine how selected stocks behave
-                  relative to broader systematic drivers.
-                </p>
-
-                <div class="tags">
-                  <span>Python</span>
-                  <span>Pandas</span>
-                  <span>Statsmodels</span>
-                  <span>Regression</span>
-                </div>
-              </div>
-
-              <a
-                class="project-link"
-                href="https://github.com/brynja-schultz/Equity-Factor-Analysis"
-                target="_blank"
-                rel="noopener"
-              >
-                View on GitHub ↗
-              </a>
-            </article>
-
-            <article class="project-card">
-              <div>
-                <p class="project-kicker">NLP · LLM EVALUATION</p>
-
-                <h3>Legal Q&amp;A Evaluation</h3>
-
-                <p>
-                  Evaluation work involving natural language processing and large
-                  language models for legal question answering, with an emphasis
-                  on assessing model outputs and performance.
-                </p>
-
-                <div class="tags">
-                  <span>NLP</span>
-                  <span>LLMs</span>
-                  <span>Python</span>
-                  <span>Evaluation</span>
-                </div>
-              </div>
-
-              <a
-                class="project-link"
-                href="https://github.com/rachelren2025/NLP_Final_Project"
-                target="_blank"
-                rel="noopener"
-              >
-                View project ↗
-              </a>
-            </article>
-
-            <article class="project-card muted-card">
-              <div>
-                <p class="project-kicker">NEXT PROJECT</p>
-
-                <h3>Product Analytics</h3>
-
-                <p>
-                  Reserve this space for your next product analytics project. A
-                  strong version would include funnel analysis, retention or cohort
-                  analysis, an experiment or KPI framework, and a clear business
-                  recommendation.
-                </p>
-
-                <div class="tags">
-                  <span>SQL</span>
-                  <span>Python</span>
-                  <span>Product Analytics</span>
-                </div>
-              </div>
-
-              <span class="project-link disabled">
-                Coming soon
-              </span>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- Research -->
-      <section id="research" class="section container">
-        <div class="section-heading">
-          <p class="eyebrow">RESEARCH &amp; PUBLICATIONS</p>
-          <h2>Research</h2>
-        </div>
-
-        <div class="research-card">
-          <div>
-            <h3>Evaluating Large Language Models for Legal Multiple Choice Question and Answering</h3>
-
-            <p>
-              Evaluated BERT-Double, Legal-BERT, and Custom Legal-BERT on CaseHOLD, a 53,000+ question legal reasoning dataset. 
-              Fine-tuned models and assessed performance using accuracy, Macro-F1, and evaluation loss. 
-              Designed and implemented a novel Weighted Correctness Score incorporating question difficulty, model confidence, 
-              and correctness to identify model weaknesses missed by traditional accuracy metrics.
-            </p>
-          </div>
-
-          <a
-            class="project-link"
-            href="https://scholar.google.com/citations?user=JTOnPqcAAAAJ&hl=en&authuser=1"
-            target="_blank"
-            rel="noopener"
-          >
-            Google Scholar ↗
-          </a>
-        </div>
-      </section>
-
-      <!-- Contact -->
-      <section id="contact" class="section section-alt contact-section">
-        <div class="container contact-wrap">
-          <div>
-            <p class="eyebrow">CONTACT</p>
-            <h2>Interested in data, ML, analytics, and quantitative work.</h2>
-          </div>
-
-          <div class="contact-links">
-            <a href="mailto:brynjaschultz@gmail.com">
-              Email ↗
-            </a>
-
-            <a
-              href="https://github.com/brynja-schultz"
-              target="_blank"
-              rel="noopener"
-            >
-              GitHub ↗
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/brynjaschultz/"
-              target="_blank"
-              rel="noopener"
-            >
-              LinkedIn ↗
-            </a>
-          </div>
-        </div>
-      </section>
     </main>
-
     <footer>
       <div class="container footer-wrap">
-        <span>
-          © <span id="year"></span> Brynja Schultz
-        </span>
+        <span>© <span id="year"></span> Brynja Schultz</span>
       </div>
     </footer>
 
