@@ -1,164 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Brynja Schultz — data science, machine learning, quantitative analysis, and computational biology." />
-  <title>Brynja Schultz</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top">BS</a>
-      <nav aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#research">Research</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Brynja Schultz — data science, machine learning, quantitative analysis, and computational biology."
+    />
 
-  <main id="top">
-    <section class="hero container">
-      <div class="hero-copy">
-        <p class="eyebrow">DATA · MACHINE LEARNING · QUANTITATIVE ANALYSIS</p>
-        <h1>Brynja Schultz</h1>
-        <p class="lede">
-          MSc student in Computational Biology &amp; Bioinformatics at ETH Zürich with a background in
-          Computer Science and Mathematics from New York University. Interested in data science,
-          machine learning, quantitative problem-solving, and computational research.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">View projects</a>
-          <a class="button secondary" href="Brynja Schultz Resume.pdf" target="_blank" rel="noopener">Resume</a>
+    <title>Brynja Schultz</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top">BS</a>
+
+        <nav aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#research">Research</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            DATA · MACHINE LEARNING · QUANTITATIVE ANALYSIS
+          </p>
+
+          <h1>Brynja Schultz</h1>
+
+          <p class="lede">
+            MSc student in Computational Biology &amp; Bioinformatics at ETH Zürich
+            with a background in Computer Science and Mathematics from New York
+            University. Interested in data science, machine learning, quantitative
+            problem-solving, and computational research.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">
+              View projects
+            </a>
+
+            <a
+              class="button secondary"
+              href="Brynja-Schultz-Resume.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Resume
+            </a>
+          </div>
+
+          <div class="link-row" aria-label="Profile links">
+            <a
+              href="https://github.com/brynja-schultz"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub ↗
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/brynjaschultz/"
+              target="_blank"
+              rel="noopener"
+            >
+              LinkedIn ↗
+            </a>
+
+            <a
+              href="https://scholar.google.com/citations?user=JTOnPqcAAAAJ&hl=en&authuser=1"
+              target="_blank"
+              rel="noopener"
+            >
+              Google Scholar ↗
+            </a>
+          </div>
         </div>
-        <div class="link-row" aria-label="Profile links">
-          <a href="https://github.com/brynja-schultz" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/brynjaschultz/" target="_blank" rel="noopener">LinkedIn ↗</a>
-          <a href="https://scholar.google.com/citations?user=JTOnPqcAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener">Google Scholar ↗</a>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="about" class="section container">
-      <div class="section-heading">
-        <p class="eyebrow">ABOUT</p>
-        <h2>Technical work grounded in quantitative reasoning.</h2>
-      </div>
-      <div class="about-grid">
-        <p>
-          My work combines programming, statistics, modeling, and data analysis. I am currently pursuing
-          an MSc in Computational Biology &amp; Bioinformatics at ETH Zürich after completing a Computer
-          Science degree with mathematics coursework at NYU.
-        </p>
-        <p>
-          I am particularly interested in problems where quantitative analysis can clarify a complex
-          decision: evaluating models, extracting signal from noisy data, and communicating results in a
-          way that is useful to technical and non-technical audiences.
-        </p>
-      </div>
-      <div class="skill-list" aria-label="Technical skills">
-        <span>Python</span><span>SQL</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span>
-        <span>Statsmodels</span><span>Machine Learning</span><span>Regression</span><span>Data Analysis</span>
-        <span>Git</span><span>C++</span><span>Java</span>
-      </div>
-    </section>
-
-    <section id="projects" class="section section-alt">
-      <div class="container">
+      <!-- About -->
+      <section id="about" class="section container">
         <div class="section-heading">
-          <p class="eyebrow">SELECTED PROJECTS</p>
-          <h2>Recent work</h2>
+          <p class="eyebrow">ABOUT</p>
+          <h2>Technical work grounded in quantitative reasoning.</h2>
         </div>
 
-        <div class="project-grid">
-          <article class="project-card featured">
-            <div>
-              <p class="project-kicker">QUANTITATIVE FINANCE</p>
-              <h3>Equity Factor Analysis</h3>
-              <p>
-                Python-based analysis of equity returns and factor exposures using return statistics,
-                correlation analysis, regression, and model evaluation. Built to examine how selected
-                stocks behave relative to broader systematic drivers.
-              </p>
-              <div class="tags"><span>Python</span><span>Pandas</span><span>Statsmodels</span><span>Regression</span></div>
-            </div>
-            <a class="project-link" href="https://github.com/brynja-schultz/Equity-Factor-Analysis" target="_blank" rel="noopener">View on GitHub ↗</a>
-          </article>
-
-          <article class="project-card">
-            <div>
-              <p class="project-kicker">NLP · LLM EVALUATION</p>
-              <h3>Legal Q&amp;A Evaluation</h3>
-              <p>
-                Evaluation work involving natural language processing and large language models for legal
-                question answering, with an emphasis on assessing model outputs and performance.
-              </p>
-              <div class="tags"><span>NLP</span><span>LLMs</span><span>Python</span><span>Evaluation</span></div>
-            </div>
-            <a class="project-link" href="https://github.com/rachelren2025/NLP_Final_Project" target="_blank" rel="noopener">View project ↗</a>
-          </article>
-
-          <article class="project-card muted-card">
-            <div>
-              <p class="project-kicker">NEXT PROJECT</p>
-              <h3>Product Analytics</h3>
-              <p>
-                Reserve this space for your next product analytics project. A strong version would include
-                funnel analysis, retention or cohort analysis, an experiment or KPI framework, and a clear
-                business recommendation.
-              </p>
-              <div class="tags"><span>SQL</span><span>Python</span><span>Product Analytics</span></div>
-            </div>
-            <span class="project-link disabled">Coming soon</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="research" class="section container">
-      <div class="section-heading">
-        <p class="eyebrow">RESEARCH &amp; PUBLICATIONS</p>
-        <h2>Research</h2>
-      </div>
-      <div class="research-card">
-        <div>
-          <h3>Published research</h3>
+        <div class="about-grid">
           <p>
-            Add the title of your paper here, followed by one sentence describing the question, your role,
-            and the main method or contribution.
+            My work combines programming, statistics, modeling, and data analysis.
+            I am currently pursuing an MSc in Computational Biology &amp;
+            Bioinformatics at ETH Zürich after completing a Computer Science degree
+            with a minor in Mathematics at NYU.
+          </p>
+
+          <p>
+            I am particularly interested in problems where quantitative analysis
+            can clarify a complex decision: evaluating models, extracting signal
+            from noisy data, and communicating results in a way that is useful to
+            technical and non-technical audiences.
           </p>
         </div>
-        <a class="project-link" href="https://scholar.google.com/citations?user=JTOnPqcAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener">Google Scholar ↗</a>
-      </div>
-    </section>
 
-    <section id="contact" class="section section-alt contact-section">
-      <div class="container contact-wrap">
-        <div>
-          <p class="eyebrow">CONTACT</p>
-          <h2>Interested in data, ML, analytics, and quantitative work.</h2>
+        <div class="skill-list" aria-label="Technical skills">
+          <span>Python</span>
+          <span>SQL</span>
+          <span>Pandas</span>
+          <span>NumPy</span>
+          <span>Scikit-learn</span>
+          <span>Statsmodels</span>
+          <span>Machine Learning</span>
+          <span>Regression</span>
+          <span>Data Analysis</span>
+          <span>Git</span>
+          <span>C++</span>
+          <span>Java</span>
         </div>
-        <div class="contact-links">
-          <a href="mailto:brynjaschultz@gmail.com">Email ↗</a>
-          <a href="https://github.com/brynja-schultz" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/brynjaschultz/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">SELECTED PROJECTS</p>
+            <h2>Recent work</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card featured">
+              <div>
+                <p class="project-kicker">QUANTITATIVE FINANCE</p>
+
+                <h3>Equity Factor Analysis</h3>
+
+                <p>
+                  Python-based analysis of equity returns and factor exposures
+                  using return statistics, correlation analysis, regression, and
+                  model evaluation. Built to examine how selected stocks behave
+                  relative to broader systematic drivers.
+                </p>
+
+                <div class="tags">
+                  <span>Python</span>
+                  <span>Pandas</span>
+                  <span>Statsmodels</span>
+                  <span>Regression</span>
+                </div>
+              </div>
+
+              <a
+                class="project-link"
+                href="https://github.com/brynja-schultz/Equity-Factor-Analysis"
+                target="_blank"
+                rel="noopener"
+              >
+                View on GitHub ↗
+              </a>
+            </article>
+
+            <article class="project-card">
+              <div>
+                <p class="project-kicker">NLP · LLM EVALUATION</p>
+
+                <h3>Legal Q&amp;A Evaluation</h3>
+
+                <p>
+                  Evaluation work involving natural language processing and large
+                  language models for legal question answering, with an emphasis
+                  on assessing model outputs and performance.
+                </p>
+
+                <div class="tags">
+                  <span>NLP</span>
+                  <span>LLMs</span>
+                  <span>Python</span>
+                  <span>Evaluation</span>
+                </div>
+              </div>
+
+              <a
+                class="project-link"
+                href="https://github.com/rachelren2025/NLP_Final_Project"
+                target="_blank"
+                rel="noopener"
+              >
+                View project ↗
+              </a>
+            </article>
+
+            <article class="project-card muted-card">
+              <div>
+                <p class="project-kicker">NEXT PROJECT</p>
+
+                <h3>Product Analytics</h3>
+
+                <p>
+                  Reserve this space for your next product analytics project. A
+                  strong version would include funnel analysis, retention or cohort
+                  analysis, an experiment or KPI framework, and a clear business
+                  recommendation.
+                </p>
+
+                <div class="tags">
+                  <span>SQL</span>
+                  <span>Python</span>
+                  <span>Product Analytics</span>
+                </div>
+              </div>
+
+              <span class="project-link disabled">
+                Coming soon
+              </span>
+            </article>
+          </div>
         </div>
+      </section>
+
+      <!-- Research -->
+      <section id="research" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">RESEARCH &amp; PUBLICATIONS</p>
+          <h2>Research</h2>
+        </div>
+
+        <div class="research-card">
+          <div>
+            <h3>Published research</h3>
+
+            <p>
+              Add the title of your paper here, followed by one sentence describing
+              the question, your role, and the main method or contribution.
+            </p>
+          </div>
+
+          <a
+            class="project-link"
+            href="https://scholar.google.com/citations?user=JTOnPqcAAAAJ&hl=en&authuser=1"
+            target="_blank"
+            rel="noopener"
+          >
+            Google Scholar ↗
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section section-alt contact-section">
+        <div class="container contact-wrap">
+          <div>
+            <p class="eyebrow">CONTACT</p>
+            <h2>Interested in data, ML, analytics, and quantitative work.</h2>
+          </div>
+
+          <div class="contact-links">
+            <a href="mailto:brynjaschultz@gmail.com">
+              Email ↗
+            </a>
+
+            <a
+              href="https://github.com/brynja-schultz"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub ↗
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/brynjaschultz/"
+              target="_blank"
+              rel="noopener"
+            >
+              LinkedIn ↗
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-wrap">
+        <span>
+          © <span id="year"></span> Brynja Schultz
+        </span>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <footer>
-    <div class="container footer-wrap">
-      <span>© <span id="year"></span> Brynja Schultz</span>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
