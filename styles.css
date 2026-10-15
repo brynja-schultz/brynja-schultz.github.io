@@ -168,8 +168,7 @@ h3 {
 }
 
 .link-row a,
-.project-link,
-.contact-links a {
+.project-link {
   color: var(--accent);
   font-weight: 600;
   text-decoration-thickness: 1px;
@@ -475,6 +474,14 @@ footer {
   .research-card {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+    .contact-page {
+    padding-top: 55px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
   }
 
   .footer-wrap {
