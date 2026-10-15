@@ -285,6 +285,28 @@ h3 {
   padding-top: 30px;
 }
 
+/* Projects intro */
+
+.projects-intro {
+  padding: 55px 0 28px;
+  max-width: 760px;
+}
+
+.projects-intro h1 {
+  font-size: clamp(2.4rem, 5vw, 3.8rem);
+  margin-bottom: 14px;
+}
+
+.projects-intro p:last-child {
+  margin: 0;
+  color: #5d6675;
+  font-size: 1.05rem;
+}
+
+.projects-intro + .section {
+  padding-top: 20px;
+}
+
 /* Projects */
 
 .project-grid {
@@ -308,34 +330,13 @@ h3 {
 
 .project-card.featured {
   grid-column: span 12;
-  min-height: 300px;
+  min-height: 260px;
+  padding: 34px;
 }
 
-.project-kicker {
-  margin: 0 0 12px;
-  color: var(--accent);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  font-weight: 700;
+.project-card.featured h3 {
+  font-size: 1.8rem;
 }
-
-.project-card p {
-  max-width: 720px;
-  color: #5d6675;
-}
-
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px;
-  margin-top: 20px;
-}
-
-.project-link {
-  margin-top: 24px;
-  align-self: flex-start;
-}
-
 /* Research */
 
 .research-card {
