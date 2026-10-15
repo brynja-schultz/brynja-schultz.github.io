@@ -64,8 +64,10 @@ a {
   border: 1px solid var(--text);
   border-radius: 50%;
   text-decoration: none;
-  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
   font-size: 0.82rem;
+  letter-spacing: -0.04em;
 }
 
 nav {
@@ -113,16 +115,16 @@ h3 {
 }
 
 h1 {
-  font-family: "Libre Baskerville", Georgia, serif;
+  font-family: "Manrope", sans-serif;
   font-size: clamp(3.3rem, 8vw, 6.8rem);
-  letter-spacing: -0.045em;
+  letter-spacing: -0.03em;
   margin-bottom: 28px;
 }
 
 h2 {
-  font-family: "Libre Baskerville", Georgia, serif;
+  font-family: "Manrope", sans-serif;
   font-size: clamp(2rem, 4vw, 3.5rem);
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
   max-width: 780px;
 }
 
