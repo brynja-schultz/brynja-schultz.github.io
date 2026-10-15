@@ -290,6 +290,9 @@ h3 {
 .projects-intro {
   padding: 55px 0 28px;
   max-width: 760px;
+  margin-left: 0;
+  margin-right: auto;
+  text-align: left;
 }
 
 .projects-intro h1 {
