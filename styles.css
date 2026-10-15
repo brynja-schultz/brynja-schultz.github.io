@@ -254,6 +254,7 @@ h3 {
 .home-photo-wrap {
   display: flex;
   justify-content: center;
+  transform: translateY(-35px);
 }
 
 .home-about {
@@ -445,6 +446,7 @@ footer {
 
   .home-photo-wrap {
     justify-content: flex-start;
+    transform: none;
   }
 
   .profile-photo {
