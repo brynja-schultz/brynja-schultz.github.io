@@ -218,13 +218,45 @@ h3 {
 }
 
 .profile-photo {
-  width: 240px;
-  height: 240px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
-  object-position: center 25%;
+  object-position: center 20%;
   border-radius: 50%;
   display: block;
-  margin: 30px 0;
+}
+
+.home-intro {
+  min-height: calc(100vh - 70px);
+  padding: 70px 0 50px;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(260px, 0.8fr);
+  gap: 70px;
+  align-items: center;
+}
+
+.home-copy h1 {
+  margin-bottom: 24px;
+}
+
+.home-summary {
+  max-width: 720px;
+  color: #46524c;
+  font-size: 1.05rem;
+}
+
+.home-photo-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.home-about {
+  margin-top: 45px;
+  padding-top: 35px;
+  border-top: 1px solid var(--line);
 }
 
 /* Projects */
