@@ -254,7 +254,7 @@ h3 {
 .home-photo-wrap {
   display: flex;
   justify-content: center;
-  transform: translateY(-50px);
+  transform: translateY(-75px);
 }
 
 .home-about {
