@@ -277,6 +277,10 @@ h3 {
   max-width: 760px;
 }
 
+.page-hero + .section {
+  padding-top: 35px;
+}
+
 .page-content {
   padding-top: 30px;
 }
